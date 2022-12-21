@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    background-image: url(ezgif-1-0cc2b5d730.gif);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 1920;
+}
+
+
+
+#principal-page{
+    text-align: center;
+    color: red;
+}
+
+img{
+    border-radius: 30px;
+    height: 400px;
+}
+
+
+.imgjuegos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;  
+}
+
+#textmove{
+    color: white;
+    font-size: 60px;
+    text-align: right;
+
+    -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
+}
+
+@keyframes my-animation{
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
+#links{
+
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    border-width: 4px;
+    border-style: solid;
+    border-color: brown;
+    
+}
+
+#ultimo + div{
+    visibility: hidden;
+}
+
+#forodeperfil{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+    float: initial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
